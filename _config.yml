@@ -3,20 +3,18 @@ title: Unum.xyz
 description: Artificial Intelligence, but scalable!
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  Founder: "http://ashvardanian.com"
+  Projects:
+    - Semantic: "http://unum.xyz/semantic/"
+    - Fast: "http://unum.xyz/fast/"
 
 avatar: "unum.png"
 title-img: "unum.png"
 
 author:
-  name: Some Person
+  name: Ashot Vardanian
 
 social-network-links:
-  rss: true
   email: "a@unum.xyz"
   facebook: ashvardanian
   github: ashvardanian
@@ -33,7 +31,7 @@ share-links-active:
   facebook: true
   linkedin: true
 
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "unum.xyz"
 #google_analytics: ""
 
 exclude:

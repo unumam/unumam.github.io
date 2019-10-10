@@ -32,7 +32,7 @@ New algorithms design and performant implementations.
 - If you want to actually **apply** those insane skills in a serious project
 	- ... why are you still reading this?! Reach us!
 
-# Currrent State
+# Current State
 
 ## What's already implemented?
 
@@ -42,6 +42,12 @@ New algorithms design and performant implementations.
 - Crawlers and Spiders, that can scan Internet faster, than anybody
 - Some of the fastest memory allocators on the planet
 - Huge continuously growing and changing knowledge graph!
+
+## Public Resources & Appearence
+
+- Lecture given @ Synopsys HQ in Palo Alto, CA, USA. [Computational graphs and AI in C++](https://github.com/ashvardanian/NeuralSTL)
+- Lecture given @ JetBrains in St. Petersburg, Russia. [Efficient GPGPU Programming](https://youtu.be/BUtHOftDm_Y)
+- Lecture given @ CppRussia Conference in St. Petersburg, Russia. [Deep dive into GPGPU programming](https://github.com/ashvardanian/SandboxGPUs)
 
 ## What's coming soon?
 

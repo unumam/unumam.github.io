@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+We rethink data-processing, both in **theory** and in **practice**!
+New algorithms design and performant implementations.
 
-You can use the [editor on GitHub](https://github.com/UnumXYZ/unumxyz.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Why we want it?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Free-to-use model doesn't exist and users pay for analytics in one way or another.
+- As we progress, the demand for computed analytics increases, as do the prices.
+- So we rethink software design to reduce the costs by an order of magnitude!
+				
+## How we do it?
 
-### Markdown
+- Fault tolerant asynchronous algorithms
+- Scales to millions of devices
+- Implemented in templated C++, OpenCL and CUDA
+- Bare metal performance
+- Minimal dependencies on 3rd party software
+- Cross-platform tiny binaries
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Where you can see our work?
 
-```markdown
-Syntax highlighted code block
+- Mobile apps in the "Semantic" lineup with local on-device analytics
+- Private business-oriented software packages
 
-# Header 1
-## Header 2
-### Header 3
+## We are hiring! ...only senior developers
 
-- Bulleted
-- List
+- If you are not afraid of abnormal programming
+- If you are proficient in close-to-metal programming
+- If you can read and write papers with sophisticated math on:
+	- Artificial Intelligence
+	- Graph Theory
+	- Computational Complexity
+- If you want to actually **apply** those insane skills in a serious project
+	- ... why are you still reading this?! Reach us!
 
-1. Numbered
-2. List
+# Currrent State
 
-**Bold** and _Italic_ and `Code` text
+## What's already implemented?
 
-[Link](url) and ![Image](src)
-```
+- Classical Machine Learning models
+- Authored Recurrent and Graph Neural Network designs
+- Largest collection of Graph processing algorithms
+- Crawlers and Spiders, that can scan Internet faster, than anybody
+- Some of the fastest memory allocators on the planet
+- Huge continuously growing and changing knowledge graph!
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## What's coming soon?
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UnumXYZ/unumxyz.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- The new programming language, that will inherit a lot from LISP and C++
+- Compiler that is under 100K lines of code

@@ -1,4 +1,48 @@
 theme: jekyll-theme-minimal
 title: Unum.xyz
 description: Artificial Intelligence, but scalable!
-avatar: unum.png
+
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+  Author's home: "http://deanattali.com"
+
+avatar: "unum.png"
+title-img: "unum.png"
+
+author:
+  name: Some Person
+
+social-network-links:
+  rss: true
+  email: "a@unum.xyz"
+  facebook: ashvardanian
+  github: ashvardanian
+  twitter: ashvardanian
+  reddit: ashvardanian
+  linkedin: ashvardanian
+  stackoverflow: "2766161/ashot-vardanian"
+  instagram: ashvardanian
+  youtube: user/ashvardanian
+  yelp: ashvardanian
+  
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+
+url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+#google_analytics: ""
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+  

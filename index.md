@@ -10,11 +10,11 @@ New algorithms design and performant implementations.
 ## How we do it?
 
 - Fault tolerant asynchronous algorithms
-- Scales to millions of devices
+	- Scales to millions of devices
 - Implemented in templated C++, OpenCL and CUDA
-- Bare metal performance
+	- Bare metal performance
 - Minimal dependencies on 3rd party software
-- Cross-platform tiny binaries
+	- Cross-platform tiny binaries
 
 ## Where you can see our work?
 
@@ -30,7 +30,7 @@ New algorithms design and performant implementations.
 	- Graph Theory
 	- Computational Complexity
 - If you want to actually **apply** those insane skills in a serious project
-	- ... why are you still reading this?! Reach us!
+	... why are you still reading this?! Reach us!
 
 # Current State
 

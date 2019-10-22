@@ -23,11 +23,12 @@ So why design a language in the first place?
 ## Language Specs
 
 - Context-free grammar. *(In unique way)*
-- Static typing.
+- Extendable keywords set. *(In unique way)*
+- Static typing and manual memory control.
 - Interpretable to C, OpenCL and CUDA.
 - Support for wrapper classes.
-- Extendable keywords set.
 - Modular compiler.
-- Compile-time reflections for cleaner distributed software.
+- Compile-time reflections for [consistent data](https://github.com/protocolbuffers/protobuf) exchanges.
+- Implicit Array-of-Structs to Struct-of-Arrays [optimization](https://github.com/bryancatanzaro/trove).
 - Functions allow multiple input arguments and multiple outputs.
 - Functions allow partial specialization adn serialization, like data.

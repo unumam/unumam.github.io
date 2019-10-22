@@ -1,6 +1,8 @@
 theme: jekyll-theme-minimal
 title: Unum.xyz
 description: Artificial Intelligence, but scalable!
+google_analytics: UA-150644745-1
+logo: "unum.png"
 
 github:
   is_project_page: true
@@ -8,39 +10,26 @@ github:
   repository_name: Unum.xyz
   owner_url: https://github.com/ashvardanian
   owner_name: Ashot Vardanian
-
-header_pages:
-  - about.md
-  - portfolio.md
-
-logo: "unum.png"
-favicon: "unum.png"
-avatar: "unum.png"
-title-img: "unum.png"
-
+  
 author:
   name: Ashot Vardanian
 
-minima:
-  social_links:
-    email: "a@unum.xyz"
-    facebook: ashvardanian
-    github: ashvardanian
-    twitter: ashvardanian
-    reddit: ashvardanian
-    linkedin: ashvardanian
-    stackoverflow: "2766161/ashot-vardanian"
-    instagram: ashvardanian
-    youtube: user/ashvardanian
-    yelp: ashvardanian
+social_links:
+  email: "a@unum.xyz"
+  facebook: ashvardanian
+  github: ashvardanian
+  twitter: ashvardanian
+  reddit: ashvardanian
+  linkedin: ashvardanian
+  stackoverflow: "2766161/ashot-vardanian"
+  instagram: ashvardanian
+  youtube: user/ashvardanian
+  yelp: ashvardanian
   
 share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-
-url-pretty: "unum.xyz"
-google_analytics: "UA-150644745-1"
 
 exclude:
   - CHANGELOG.md

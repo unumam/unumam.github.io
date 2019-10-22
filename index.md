@@ -37,8 +37,8 @@ Our story started in November 2015. Today our IP is a set of modular libraries w
 
 ## Upcoming projects
 
-- __C* Programming Language__, that brings together the simplicity of Scheme LISP and power of C++. [Read more...](cstar.md)
-- __C* Interpreter & Compiler__, that is under 100K lines of C++20 code. [Read more...](compiler.md)
+- __C* Programming Language__, that brings together the simplicity of Scheme LISP and power of C++. [Read more...](cstar)
+- __C* Interpreter & Compiler__, that is under 100K lines of C++20 code. [Read more...](compiler)
 
 ## Contacts
 

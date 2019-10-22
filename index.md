@@ -4,12 +4,14 @@ We want to scale Machine Learning to the size of datasets and networks never see
 				
 ## Our approach
 
-- We design fault-tolerant asynchronous algorithms<br/>
-	... that can distribute our workloads over **networks with millions of devices**
-- And implement them in templated C++, OpenCL and CUDA code<br/>
-	... to achieve **bare metal performance** on any platform
-- Without major 3rd party software dependencies<br/>
-	... to make it **portable to any server or even mobile & IoT devices**
+We design fault-tolerant asynchronous algorithms <br/>
+&rarr; *that can distribute our workloads over **networks with millions of devices***<br/>
+	
+And implement them in templated C++, OpenCL and CUDA code <br/>
+&rarr; *to achieve **bare metal performance** on any platform*<br/>
+	
+Without major 3rd party software dependencies <br/>
+&rarr; *to make it **portable to any server or even mobile & IoT devices***
 
 ## Our team
 
@@ -35,7 +37,7 @@ Our story started in November 2015. Today our IP is a set of modular libraries w
 
 ## Upcoming projects
 
-- __C*__ programming language, that brings together the simplicity of Scheme LISP and power of C++.
+- [__C*__](cstar.md) programming language, that brings together the simplicity of Scheme LISP and power of C++.
 - __Compiler__ that is under 100K lines of modern C++ code.
 
 ## Contacts

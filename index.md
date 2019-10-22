@@ -1,5 +1,5 @@
 We are a privately owned software company. <br/>
-We are working on the fastest analytics framework on the planet. <br/>
+We are working on ~potentially~ fastest analytics framework on the planet. <br/>
 We want to scale Machine Learning to the size of datasets and networks never seen before.
 				
 ## Our approach
@@ -22,12 +22,12 @@ If you are like us, if you love ambitious projects, if you enjoy reading and wri
 ## Our framework
 
 Our story started in November 2015. Today our IP is a set of modular libraries with a wide range of functionality, including, but not limited to:
+- **Unique [Recurrent](https://en.wikipedia.org/wiki/Recurrent_neural_network) and [Graph Neural Network](https://arxiv.org/abs/1901.00596) models.**
+- **Largest collection of [Graph processing algorithms](https://en.wikipedia.org/wiki/Category:Graph_algorithms).**
 - Classical Machine Learning models.
-- Authored Recurrent and Graph Neural Network designs.
-- Largest collection of Graph processing algorithms.
-- Crawlers and Spiders, that can scan Internet faster, than anybody.
-- Some of the fastest memory allocators on the planet.
-- Huge continuously growing and changing knowledge graph.
+- [Crawlers and Spiders](https://en.wikipedia.org/wiki/Web_crawler), that can scan Internet faster, than anybody.
+- Fast memory allocators and concurrency synchronization primitives.
+- Continuously growing distributed database of [ontologies](https://en.wikipedia.org/wiki/Ontology_(information_science)).
 
 ## Public appearences
 
@@ -37,8 +37,8 @@ Our story started in November 2015. Today our IP is a set of modular libraries w
 
 ## Upcoming projects
 
-- [__C*__](cstar.md) programming language, that brings together the simplicity of Scheme LISP and power of C++.
-- __Compiler__ that is under 100K lines of modern C++ code.
+- __C*__ programming language, that brings together the simplicity of Scheme LISP and power of C++. [Read more...](cstar.md)
+- __C* Interpreter & Compiler__ that is under 100K lines of C++20 code. [Read more...](compiler.md)
 
 ## Contacts
 

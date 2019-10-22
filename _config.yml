@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: Unum.xyz
 description: Artificial Intelligence, but scalable!
 
@@ -13,6 +13,7 @@ header_pages:
   - about.md
   - portfolio.md
 
+logo: "unum.png"
 favicon: "unum.png"
 avatar: "unum.png"
 title-img: "unum.png"

@@ -1,30 +1,30 @@
-theme: jekyll-theme-minimal
+theme: minima
 title: Unum.xyz
 description: Artificial Intelligence, but scalable!
 
-navbar-links:
-  Founder: "http://ashvardanian.com"
-  Projects:
-    - Semantic: "http://unum.xyz/semantic/"
-    - Fast: "http://unum.xyz/fast/"
+header_pages:
+  - about.md
+  - portfolio.md
 
+favicon: "unum.png"
 avatar: "unum.png"
 title-img: "unum.png"
 
 author:
   name: Ashot Vardanian
 
-social-network-links:
-  email: "a@unum.xyz"
-  facebook: ashvardanian
-  github: ashvardanian
-  twitter: ashvardanian
-  reddit: ashvardanian
-  linkedin: ashvardanian
-  stackoverflow: "2766161/ashot-vardanian"
-  instagram: ashvardanian
-  youtube: user/ashvardanian
-  yelp: ashvardanian
+minima:
+  social_links:
+    email: "a@unum.xyz"
+    facebook: ashvardanian
+    github: ashvardanian
+    twitter: ashvardanian
+    reddit: ashvardanian
+    linkedin: ashvardanian
+    stackoverflow: "2766161/ashot-vardanian"
+    instagram: ashvardanian
+    youtube: user/ashvardanian
+    yelp: ashvardanian
   
 share-links-active:
   twitter: true
@@ -32,7 +32,7 @@ share-links-active:
   linkedin: true
 
 url-pretty: "unum.xyz"
-#google_analytics: ""
+google_analytics: "UA-150644745-1"
 
 exclude:
   - CHANGELOG.md

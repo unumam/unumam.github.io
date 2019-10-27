@@ -1,6 +1,5 @@
-We are a privately owned software company. <br/>
-We are working on ~*potentially*~ fastest analytics framework on the planet. <br/>
-We want to scale Machine Learning to the size of datasets and networks never seen before.
+We are a software company working on a high-performance analytics library.<br/> 
+We want to train & apply Artificial Intelligence on the scale beyond current limits.
 				
 ## Our Approach
 

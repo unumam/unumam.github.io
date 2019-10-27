@@ -17,7 +17,7 @@ Without major 3rd party software dependencies <br/>
 
 We are a small group of senior developers. We are scattered across the globe. We come from computer- or life- science backgrounds. Most importantly, we are passionate about solving problems of humanity through Artificial Intelligence.
 
-If you are similar to us, if you like ambitious projects, if you enjoy reading and writing scientific papers with advanced calculus and want to apply these skills **&rarr; [reach us, we are hiring!](mailto:a@unum.xyz)**
+If you are similar to us, if you like ambitious projects, if you enjoy reading and writing scientific papers with advanced calculus and want to apply these skills **&rarr; [reach us, we are hiring!](mailto:hr@unum.xyz)**
 
 ## Our Framework
 
@@ -43,6 +43,6 @@ Our story began in November 2015. Today we manage a set of modular libraries wit
 
 ## Contacts
 
-[LinkedIn](linkedin.com/company/unumxyz)<br/>
+[LinkedIn](https://linkedin.com/company/unumxyz)<br/>
 [GitHub](https://github.com/unumxyz)<br/>
 [Email](mailto:info@unum.xyz)<br/>

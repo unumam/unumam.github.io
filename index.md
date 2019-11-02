@@ -28,7 +28,7 @@ Our story began in November 2015. Today we manage a set of modular libraries wit
 - Fast memory allocators and concurrency synchronization primitives.
 - Continuously growing distributed database of [ontologies](https://en.wikipedia.org/wiki/Ontology_(information_science)).
 
-## Public Appearences
+## Public Appearances
 
 - Lecture @ Synopsys HQ in Palo Alto, CA, USA. [Computational graphs and AI in C++](https://github.com/ashvardanian/NeuralSTL)
 - Lecture @ JetBrains HQ in St. Petersburg, Russia. [Efficient GPGPU Programming](https://github.com/ashvardanian/SandboxGPUs), [Video](https://youtu.be/BUtHOftDm_Y)

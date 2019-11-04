@@ -3,8 +3,8 @@ We want to train & apply Artificial Intelligence on the scale beyond current lim
 				
 ## Our Approach
 
-We design fault-tolerant asynchronous algorithms <br/>
-&rarr; *that can distribute our workloads over **networks with millions of devices!***<br/>
+We design secure & fault-tolerant asynchronous algorithms <br/>
+&rarr; *that can distribute our workloads over **encrypted networks with millions of devices!***<br/>
 	
 And implement them in templated C++, OpenCL and CUDA code <br/>
 &rarr; *to achieve **bare metal performance on any platform!***<br/>
@@ -32,7 +32,7 @@ Our story began in November 2015. Today we manage a set of modular libraries wit
 
 - Lecture @ Synopsys HQ in Palo Alto, CA, USA. [Computational graphs and AI in C++](https://github.com/ashvardanian/NeuralSTL)
 - Lecture @ JetBrains HQ in St. Petersburg, Russia. [Efficient GPGPU Programming](https://github.com/ashvardanian/SandboxGPUs), [Video](https://youtu.be/BUtHOftDm_Y)
-- Lecture @ CppRussia Conference in St. Petersburg, Russia. [Deep dive into GPGPU programming](https://github.com/ashvardanian/SandboxGPUs)
+- Lecture @ CppRussia Conference in St. Petersburg, Russia. [Deep dive into GPGPU programming](https://cppconf-piter.ru/en/2019/spb/talks/68dwcymif21zt9eyjn6ge1/)
 
 ## Upcoming Projects
 

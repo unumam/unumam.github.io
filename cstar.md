@@ -17,7 +17,7 @@ So why design a language in the first place?
 ## Language Goals
 
 - Performance higher than in C++/C... thanks to [kernel fusion](https://arxiv.org/abs/1305.1183), the next evolutionary step after inlining.
-- Parsing speed equal to [Common LISP](https://lisp-lang.org).
+- Parsing speed similar to [Common LISP](https://lisp-lang.org).
 - Simple prototyping and optimization like in [Halide](https://halide-lang.org).
 
 ## Language Specs
@@ -26,9 +26,10 @@ So why design a language in the first place?
 - Extendable keywords set. *(In unique way)*
 - Static typing and manual memory control.
 - Interpretable to C, OpenCL and CUDA.
-- Support for wrapper classes.
+- Support for compact wrapper classes.
 - Modular compiler.
 - Compile-time reflections for [consistent data](https://github.com/protocolbuffers/protobuf) exchanges.
-- Implicit Array-of-Structs to Struct-of-Arrays [optimization](https://github.com/bryancatanzaro/trove).
+- Implicit Array-of-Structs to Struct-of-Arrays [optimizations](https://github.com/bryancatanzaro/trove).
 - Functions allow multiple input arguments and multiple outputs.
-- Functions allow partial specialization adn serialization, like data.
+- Functions can be partially specialized and overloaded.
+- Functions can be serialized into IR, just like data.

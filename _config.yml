@@ -1,8 +1,8 @@
 theme: jekyll-theme-minimal
-title: unum.xyz
+title: # unum.xyz
+description: # Artificial Intelligence, but scalable!
 google_analytics: UA-150644745-1
 logo: "unum.png"
-# description: Artificial Intelligence, but scalable!
 
 author:
   name: Ashot Vardanian

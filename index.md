@@ -1,32 +1,39 @@
-We are a software company working on a high-performance analytics library.<br/> 
-We want to train & apply Artificial Intelligence on the scale beyond current limits.
-				
-## Our Approach
+- We are a team of software developers.
+- We work on next-generation tools for machine learning.
 
-We design secure & fault-tolerant asynchronous algorithms <br/>
-&rarr; *that can distribute our workloads over **encrypted networks with millions of devices!***<br/>
-	
-And implement them in templated C++, OpenCL and CUDA code <br/>
-&rarr; *to achieve **bare metal performance on any platform!***<br/>
-	
-Without major 3rd party software dependencies <br/>
-&rarr; *to make it **portable to any server or even mobile & IoT devices!***
+## Our Mission
+
+Our mission is to help solve the most computationally-demanding problems with powerful software:
+- Clustering relevant information for educational purposes.
+- Simulating complex biological systems for medical research.
+- Analyzing our ever-changing habitat to improve the quality of life.
+
+## Our Goal
+
+Our goal is to build a framework for Artificial Intelligence, just like [TensorFlow](https://www.tensorflow.org) or [PyTorch](https://pytorch.org), that:
+- Trains AI models **much cheaper and faster**!
+- Runs on servers **and on mobile, desktop & IoT devices**.
+- Is distributed and **fault-tolerant** at its core!
+- Learns **continuously** with hot-swappable streams of data!
+
+## Our Research
+
+- Innovative [Recurrent](https://en.wikipedia.org/wiki/Recurrent_neural_network) and [Graph Neural](https://arxiv.org/abs/1901.00596) Networks.
+- Quasi-Polynomial [Graph Algorithms](https://en.wikipedia.org/wiki/Category:Graph_algorithms).
+- Knowledge representation and construction of [ontologies](https://en.wikipedia.org/wiki/Ontology_(information_science)).
+
+## Our Technology Stack
+
+- The core is written in C++17, OpenCL and CUDA.
+- Side-projects and pipelines are written in Python and Swift.
+- Integrates with CI/CD tools like Jenkins, Docker & Conan.
+- Works on-premise, but can be distributed to a public cloud.
 
 ## Our Team
 
 We are a small group of senior developers. We are scattered across the globe. We come from computer- or life- science backgrounds. Most importantly, we are passionate about solving problems of humanity through Artificial Intelligence.
 
-If you are similar to us, if you like ambitious projects, if you enjoy reading and writing scientific papers with advanced calculus and want to apply these skills **&rarr; [reach us, we are hiring!](mailto:hr@unum.xyz)**
-
-## Our Framework
-
-Our story began in November 2015. Today we manage a set of modular libraries with a wide range of functionality, including, but not limited to:
-- **Unique [Recurrent](https://en.wikipedia.org/wiki/Recurrent_neural_network) and [Graph Neural Network](https://arxiv.org/abs/1901.00596) models.**
-- **Largest collection of [Graph processing algorithms](https://en.wikipedia.org/wiki/Category:Graph_algorithms).**
-- Classical Machine Learning models.
-- [Crawlers and Spiders](https://en.wikipedia.org/wiki/Web_crawler), that can scan Internet faster, than anybody.
-- Fast memory allocators and concurrency synchronization primitives.
-- Continuously growing distributed database of [ontologies](https://en.wikipedia.org/wiki/Ontology_(information_science)).
+If you are like us, if you like ambitious projects, if you enjoy reading and writing scientific papers with advanced calculus and want to apply these skills **&rarr; [reach us, we are hiring!](mailto:hr@unum.xyz)**
 
 ## Public Appearances
 

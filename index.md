@@ -26,10 +26,9 @@ Our mission is to help solve the most computationally-demanding problems with po
 
 ### Our Technology Stack
 
-- The core is written in C++17, OpenCL and CUDA.
-- Side-projects and pipelines are written in Python and Swift.
-- Integrates with CI/CD tools like Jenkins, Docker & Conan.
-- Works on-premise, but can be distributed to a public cloud.
+- Implementation languages: C++17, **OpenCL** and **CUDA**.
+- Bindings: **Python**, Swift & Java are in development.
+- CI/CD tools: GitLab, **Docker**, Conda & Conan.
 
 ### Our Team
 
@@ -47,7 +46,17 @@ If you are like us, if you like ambitious projects, if you enjoy reading and wri
 
 - __C* Programming Language__, that brings together the simplicity of Common LISP and power of C++. [Read more...](cstar)
 - __C* Interpreter & Compiler__, that fits into 30K lines of clean standardardized C++20 code. [Read more...](compiler)
-- __APIs for Swift & Java__.
+- __Bindings for Swift & Java__.
+- __WebAssembly__ compilation.
+
+### Cool Facts
+
+- After the first prototypes were built, the project was in **no-compile** state for 2 years.
+- Our entire codebase is **documented**, **containerized** and is continuously deployed with **GitLab** CI/CD pipelines.
+- Everuthing including graph algorithms, neural networks, databases and networking fits into **200K lines of code**. 
+- We were started as C++11 project, but had already migrated to C++14, C++17 and now transitioning to **C++20**.
+- We are "public cloud"-ready, but operate our own **High-Performance Cluster** to increase cost-effectiveness.
+- We are compatible with: **Linux**, MacOS, iOS, and Android.
 
 ### Contacts
 

@@ -1,6 +1,6 @@
 # About Unum
 
-Unum was founded by [Ashot Vardanian](ashvardanian.com) in November 2015.<br/>
+Unum was founded by [Ashot Vardanian](https://ashvardanian.com) in November 2015.<br/>
 
 * We are small and flexible, and we enjoy that. The same goes for our codebase.
 * We are privately funded, so bureaucracy is reduced to a minimum.

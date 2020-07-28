@@ -9,11 +9,11 @@ A collection of high-performance persistent ACID databases.
 
 ## Components
 
-* Graphs, like [Neo4J](neo4j.com).
-* Text Search, like [ElasticSearch](elastic.co).
-* Tables, like [PostgreSQL](postgresql.org), [MySQL](mysql.com) and [SQLite](sqlite.org).
-* Documents, like [MongoDB](mongodb.com).
-* Time Series, like [InfluxDB](influxdata.com).
+* Graphs, like [Neo4J](https://neo4j.com).
+* Text Search, like [ElasticSearch](https://elastic.co).
+* Tables, like [PostgreSQL](https://postgresql.org), [MySQL](https://mysql.com) and [SQLite](https://sqlite.org).
+* Documents, like [MongoDB](https://mongodb.com).
+* Time Series, like [InfluxDB](https://influxdata.com).
 * High Dimensional Embeddings, unlike anything else.
   
 ## Why Unum?
@@ -73,4 +73,4 @@ If you decide to write your own, those are the points to consider.
 | Communications    |                 TCP/IP                  |    DMA or Infiniband RDMA (in a cluster)    |      Faster sharing between servers<br/>Affects: 📡      |
 | Serialization     |           Plain text or JSON            |                   Binary                    |     No serialization overhead on CPU<br/>Affects: 🧠     |
 
-Interested? [Get in touch for a demo!](info@unum.xyz).
+Interested? [Get in touch for a demo!](mailto:info@unum.xyz).

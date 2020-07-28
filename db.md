@@ -2,10 +2,10 @@
 
 A collection of high-performance persistent ACID databases.
 
-1. Fastest on the Market! 10x-100x performance improvements! Also more compact, than most DBs!
-2. No Vendor Lock! Easy to try & go back if you don't like it! No new languages to learn!
-3. Extreme Flexibility! Runs on servers, phones or even IoT! No JVM required!
-4. Broad Functionality out of the box and easy integration with most common AI tools!
+1. [**Fastest on the Market!**](#fastest-on-the-market) 10x-100x performance improvements! Also more compact, than most DBs!
+2. [**No Vendor Lock!**](#no-vendor-lock) Easy to try & go back if you don't like it! No new languages to learn!
+3. [**Extreme Flexibility!**](#extreme-flexibility) Runs on servers, phones or even IoT! No JVM required!
+4. [**Broad Functionality**](#broad-functionality) out of the box and easy integration with most common AI tools!
 
 ## Components
 
@@ -20,7 +20,7 @@ A collection of high-performance persistent ACID databases.
 
 ### Fastest on the Market!
 
-Here are the benchmarks. They are repeatable and include thousands of data-points. *UnumDB outperforms ALL competitors in ALL workloads!* 
+All benchmarks are pubulicly available. They are repeatable and include thousands of data-points. **UnumDB outperforms all competitors in all workloads!**
 
 * [Graph Benchmarks](https://github.com/unumxyz/PyWrappedDBs/tree/master/BenchGraphs/MacbookPro).
 * [Text Search Benchmarks](https://github.com/unumxyz/PyWrappedDBs/tree/master/BenchDocs/MacbookPro).
@@ -60,17 +60,17 @@ The last point is particularly important! It guarantees that the functionality o
 Below are some of the bottlenecks we have identified in most modern DBs. <br/>
 If you decide to write your own, those are the points to consider. 
 
-|                           |            Common Solutions             |            What we use in UnumDB            |                **Result**                | Device |
-| :------------------------ | :-------------------------------------: | :-----------------------------------------: | :--------------------------------------: | :----: |
-| Data layout               |          Row-wise or columnar           |          Optimal for each datatype          |         Less random jumps on SSD         |   💾    |
-| Compression               |    Generic, but slow (Snappy, zlib)     | Newly invented algorithms for each datatype |   Writes/reads less bytes to/from SSD    |   💾    |
-| Integrated Analytics      |     Integrating 3rd party libraries     |           Co-designed algorithms            | Optimal use of search indexes & metadata |   🧠    |
-| Computations              |               Sequential                |              SIMD-Accelerated               |   Processing more bytes per CPU cycle    |   🧠    |
-| Query language            |   SQL-like with big parsing overhead    |           Simple Python-interface           |   Lower latency for simple operations    |   🧠    |
-| Memory management         |      Garbage collecting languages       |       Modern C++ with smart pointers        |     Reusing RAM & avoiding GC stalls     |   🐏    |
-| In-Memory copies          | 1+ per read/write + DB cache + OS cache |      1 per write + DB cache + OS cache      |     Fitting more data-points in RAM      |   🐏    |
-| Parallelism               |            Multi-processing             |        Asynchronous multi-threading         |     Faster sharing between CPU cores     |   🧠    |
-| Inter-node communications |                 TCP/IP                  |    DMA or Infiniband RDMA (in a cluster)    |      Faster sharing between servers      |   📡    |
-| Data exchange format      |           Plain text or JSON            |                   Binary                    |     No serialization overhead on CPU     |   🧠    |
+|                   |            Common Solutions             |            What we use in UnumDB            |                       **Result**                        |
+| :---------------- | :-------------------------------------: | :-----------------------------------------: | :-----------------------------------------------------: |
+| Data layout       |          Row-wise or columnar           |          Optimal for each datatype          |         Less random jumps on SSD<br/>Affects: 💾         |
+| Compression       |    Generic, but slow (Snappy, zlib)     | Newly invented algorithms for each datatype |   Writes/reads less bytes to/from SSD<br/>Affects: 💾    |
+| Analytics         |     Integrating 3rd party libraries     |           Co-designed algorithms            | Optimal use of search indexes & metadata<br/>Affects: 🧠 |
+| Computations      |               Sequential                |              SIMD-Accelerated               |   Processing more bytes per CPU cycle<br/>Affects: 🧠    |
+| Query language    |   SQL-like with big parsing overhead    |           Simple Python-interface           |   Lower latency for simple operations<br/>Affects: 🧠    |
+| Memory management |      Garbage collecting languages       |       Modern C++ with smart pointers        |     Reusing RAM & avoiding GC stalls<br/>Affects: 🐏     |
+| In-Memory copies  | 1+ per read/write + DB cache + OS cache |      1 per write + DB cache + OS cache      |     Fitting more data-points in RAM<br/>Affects: 🐏      |
+| Parallelism       |            Multi-processing             |        Asynchronous multi-threading         |     Faster sharing between CPU cores<br/>Affects: 🧠     |
+| Communications    |                 TCP/IP                  |    DMA or Infiniband RDMA (in a cluster)    |      Faster sharing between servers<br/>Affects: 📡      |
+| Serialization     |           Plain text or JSON            |                   Binary                    |     No serialization overhead on CPU<br/>Affects: 🧠     |
 
 Interested? [Get in touch for a demo!](info@unum.xyz).

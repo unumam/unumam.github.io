@@ -1,7 +1,7 @@
 # Unum
 
 We are a small international team of senior computer scientists.<br/>
-We work on next-generation Machine Learning foundational technologies and some applications:<br/>
+We design **new Machine Learning technologies** and several applications for:<br/>
 
 * [Semantic Search](https://en.wikipedia.org/wiki/Semantic_search) for scientific and educational purposes.
 * Optimal [Resource Allocation](https://en.wikipedia.org/wiki/Resource_allocation) and orchestration in complex environments.

@@ -33,3 +33,21 @@ So why design a language in the first place?
 - Functions allow multiple input arguments and multiple outputs.
 - Functions can be partially specialized and overloaded.
 - Functions can be serialized into IR, just like data.
+
+## The Compiler
+
+Most languages are either compiled or interpreted, but fundamentally, there are no such constraints for the language itself.<br/> 
+Most modern languages are built around the LLVM toolchain, which makes it easy to target many platforms out-of-the-box.<br/> 
+LLVM is a good starting point, but like most modern compilers - it's humongous! <br/>
+Here is the number of files in LLVM and GCC repositories:
+
+| Language\Project | [LLVM](https://github.com/llvm-mirror/llvm) | [GCC](https://github.com/gcc-mirror/gcc) |
+| ---------------- | :-----------------------------------------: | :--------------------------------------: |
+| C                |                      0                      |                  48,486                  |
+| C++              |                    5,139                    |                  10,163                  |
+| Fortran          |                      0                      |                  6,627                   |
+| Ada              |                      0                      |                  5,694                   |
+| Go               |                      0                      |                  3,721                   |
+| Unix Assembly    |                    4,555                    |                   579                    |
+| Other            |                   ~5,000                    |                  ~1,000                  |
+| Total            |                ~15,000 files                |              ~75,000 files               |

@@ -11,10 +11,10 @@ Unum.DB is a high-performance persistent [ACID database](https://en.wikipedia.or
   
 ## Why Unum?
 
-1. [**Fastest on the Market!**](#fastest-on-the-market) 10x-100x performance improvements! Also more compact, than most DBs!
-2. [**No Vendor Lock!**](#no-vendor-lock) Easy to try & go back if you don't like it! No new languages to learn!
-3. [**Extreme Flexibility!**](#extreme-flexibility) Runs on servers, phones or even IoT! No JVM required!
-4. [**Broad Functionality**](#broad-functionality) out of the box and easy integration with most common AI tools!
+1. [Fastest on the Market!](#fastest-on-the-market) 10x-100x performance improvements! Also more compact, than most DBs!
+2. [No Vendor Lock!](#no-vendor-lock) Easy to try & go back if you don't like it! No new languages to learn!
+3. [Extreme Flexibility!](#extreme-flexibility) Runs on servers, phones or even IoT! No JVM required!
+4. [Broad Functionality](#broad-functionality) out of the box and easy integration with most common AI tools!
 
 ### Fastest on the Market!
 
@@ -28,36 +28,30 @@ We usually beat the 2nd best result by 10x! That means **90% savings** on your c
 ### No Vendor Lock!
 
 Most DBs aren't compatible with each other, and we don't like that. <br/>
-
-For every kind of application (graphs, text, tables), we provide generic Python interfaces. If you are not satisfied with our product, you can replace the backend implementation to something more familiar (like MongoDB, ElasticSearch or PostgreSQL). [Check out all the options here](https://github.com/unumxyz/PyWrappedDBs).
+For every kind of workload (graphs, text, tables), we provide generic Python interfaces. <br/>
+If you are not satisfied with our product, you can replace the backend implementation to something more familiar (like MongoDB, ElasticSearch or PostgreSQL). <br/>
+[Check out all the options here](https://github.com/unumxyz/PyWrappedDBs).
 
 ### Extreme Flexibility!
 
 Every aspect of UnumDB is adjustable:
 
-* Each workload specialization can be 
-  * used separately (for simple graphs or plain texts) or 
-  * as part of a bigger general-purpose database.
 * The data can be persisted 
-  * on-disk (like PostgreSQL) or 
-  * in-memory (like MemSQL or Redis).
+  * in-memory (like MemSQL or Redis) for real-time analytics or
+  * on-disk (like PostgreSQL) for big-data processing.
 * The software can be ditributed as 
-  * embedded library (like SQLite or RocksDB) or 
-  * a standalone server app (like MongoDB or PostgreSQL).
-* It can be installed
-  * on-premise (like MongoDB) or 
-  * in the public cloud (like CosmosDB).
+  * embedded library (like SQLite or RocksDB) for datasets under 10 TB or 
+  * a standalone server app (like MongoDB or PostgreSQL) for larger collections.
 * It will run
-  * on any desktop, mobile or server CPUs 
-  * but will work faster on modern high-end hardware.
-
-Sounds complex? Don't worry - the installation process is single-click, the rest is auto-tuning!
+  * on any desktop, mobile or IoT device, 
+  * on local cluster of servers or
+  * in the public clouds like AWS and Azure.
 
 ### Broad Functionality
 
 * Lossy compression & built-in quantization for big-data applications.
-* Semantic Content Search combining the TextDB and VectorDB.
-* High-performance pattern-matching in TextDB using our new RegEx algorithm.
+* Semantic Content Search for text collections.
+* High-performance pattern-matching using our new RegEx algorithms.
 * Embedded server-side scripting in Python.
 * High-Bandwidth Streaming into 3-rd party AI & big-data pipelines. **Providing up to 4 GB/s of data from a single commodity SSD!**
 

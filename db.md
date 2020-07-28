@@ -1,6 +1,6 @@
 # Unum.DB
 
-UnumDB is a high-performance persistent [ACID database](https://en.wikipedia.org/wiki/ACID) that supports a wide variety of workloads:
+Unum.DB is a high-performance persistent [ACID database](https://en.wikipedia.org/wiki/ACID) that supports a wide variety of workloads:
 
 * Graphs, like [Neo4J](https://neo4j.com).
 * Text Search, like [ElasticSearch](https://elastic.co).

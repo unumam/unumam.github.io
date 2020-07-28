@@ -35,11 +35,21 @@ For every kind of application (graphs, text, tables), we provide generic Python 
 
 Every aspect of UnumDB is adjustable:
 
-* Each component can be instantiated separately or as part of a bigger general-purpose database.
-* They can be persisted on-disk (like PostgreSQL) or in-memory (like MemSQL or Redis).
-* They can be embedded into the current application (like SQLite or RocksDB) or run as a standalone server (like MongoDB or PostgreSQL)
-* They can be installed on-premise (like MongoDB) or in the public cloud (like CosmosDB).
-* They can run on any CPUs but will take advantage of SIMD instructions of modern CPUs (like) or GPUs (like).
+* Each workload specialization can be 
+  * used separately (for simple graphs or plain texts) or 
+  * as part of a bigger general-purpose database.
+* The data can be persisted 
+  * on-disk (like PostgreSQL) or 
+  * in-memory (like MemSQL or Redis).
+* The software can be ditributed as 
+  * embedded library (like SQLite or RocksDB) or 
+  * a standalone server app (like MongoDB or PostgreSQL).
+* It can be installed
+  * on-premise (like MongoDB) or 
+  * in the public cloud (like CosmosDB).
+* It will run
+  * on any desktop, mobile or server CPUs 
+  * but will work faster on modern high-end hardware.
 
 Sounds complex? Don't worry - the installation process is single-click, the rest is auto-tuning!
 

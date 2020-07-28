@@ -25,13 +25,13 @@ All benchmarks are pubulicly available. They are repeatable and include thousand
 * [Graph Benchmarks](https://github.com/unumxyz/PyWrappedDBs/tree/master/BenchGraphs/MacbookPro).
 * [Text Search Benchmarks](https://github.com/unumxyz/PyWrappedDBs/tree/master/BenchDocs/MacbookPro).
 
-We usually beat the 2nd best result by 10x! That means 90% savings on your cloud infrastructure or 10x faster service for your customers. [Here is how we reach those numbers](#how-can-it-be-so-fast).
+We usually beat the 2nd best result by 10x! That means **90% savings** on your cloud infrastructure or 10x faster service for your customers. [Here is how we reach those numbers](#how-can-it-be-so-fast).
 
 ### No Vendor Lock!
 
 Most DBs aren't compatible with each other, and we don't like that. <br/>
 
-For every kind of application (graphs, text, tables), we provide generic Python interfaces. If you are not satisfied with our product, you can replace the backend implementation to something more familiar (like MongoDB, ElasticSearch or PostgreSQL). [Check out all the options here](https://github.com/unumxyz/PyWrappedDBs) .
+For every kind of application (graphs, text, tables), we provide generic Python interfaces. If you are not satisfied with our product, you can replace the backend implementation to something more familiar (like MongoDB, ElasticSearch or PostgreSQL). [Check out all the options here](https://github.com/unumxyz/PyWrappedDBs).
 
 ### Extreme Flexibility!
 
@@ -51,7 +51,7 @@ Sounds complex? Don't worry - the installation process is single-click, the rest
 * Semantic Content Search combining the TextDB and VectorDB.
 * High-performance pattern-matching in TextDB using our new RegEx algorithm.
 * Embedded server-side scripting in Python.
-* High-Bandwidth Streaming into 3-rd party AI & big-data pipelines. Providing up to 4 GB/s of data from a single commodity SSD!
+* High-Bandwidth Streaming into 3-rd party AI & big-data pipelines. **Providing up to 4 GB/s of data from a single commodity SSD!**
 
 The last point is particularly important! It guarantees that the functionality of UnumDB won't limit you. You can always implement a custom pipeline using third party products and swiftly stitch it with UnumDB output.
 

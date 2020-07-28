@@ -60,17 +60,17 @@ The last point is particularly important! It guarantees that the functionality o
 Below are some of the bottlenecks we have identified in most modern DBs. <br/>
 If you decide to write your own, those are the points to consider. 
 
-|                   |            Common Solutions             |            What we use in UnumDB            |                       **Result**                        |
-| :---------------- | :-------------------------------------: | :-----------------------------------------: | :-----------------------------------------------------: |
-| Data layout       |          Row-wise or columnar           |          Optimal for each datatype          |         Less random jumps on SSD<br/>Affects: 💾         |
-| Compression       |    Generic, but slow (Snappy, zlib)     | Newly invented algorithms for each datatype |   Writes/reads less bytes to/from SSD<br/>Affects: 💾    |
-| Analytics         |     Integrating 3rd party libraries     |           Co-designed algorithms            | Optimal use of search indexes & metadata<br/>Affects: 🧠 |
-| Computations      |               Sequential                |              SIMD-Accelerated               |   Processing more bytes per CPU cycle<br/>Affects: 🧠    |
-| Query language    |   SQL-like with big parsing overhead    |           Simple Python-interface           |   Lower latency for simple operations<br/>Affects: 🧠    |
-| Memory management |      Garbage collecting languages       |       Modern C++ with smart pointers        |     Reusing RAM & avoiding GC stalls<br/>Affects: 🐏     |
-| In-Memory copies  | 1+ per read/write + DB cache + OS cache |      1 per write + DB cache + OS cache      |     Fitting more data-points in RAM<br/>Affects: 🐏      |
-| Parallelism       |            Multi-processing             |        Asynchronous multi-threading         |     Faster sharing between CPU cores<br/>Affects: 🧠     |
-| Communications    |                 TCP/IP                  |    DMA or Infiniband RDMA (in a cluster)    |      Faster sharing between servers<br/>Affects: 📡      |
-| Serialization     |           Plain text or JSON            |                   Binary                    |     No serialization overhead on CPU<br/>Affects: 🧠     |
+|                   |            Common Solutions             |       What we use in UnumDB       |               **Result**               |
+| :---------------- | :-------------------------------------: | :-------------------------------: | :------------------------------------: |
+| Data layout       |          Row-wise or columnar           |     Optimal for each datatype     |       Less random jumps on 💾 SSD       |
+| Compression       |    Generic, but slow (Snappy, zlib)     |     Newly invented algorithms     | Writes/reads less bytes to/from 💾 SSD  |
+| Analytics         |     Integrating 3rd party libraries     |      Co-designed algorithms       | Optimal use of search indexes by 🧠 CPU |
+| Computations      |               Sequential                |         SIMD-Accelerated          | Processing more bytes per 🧠 CPU cycle  |
+| Query language    |   SQL-like with big parsing overhead    |      Simple Python-interface      | Lower latency for simple operations 🧠  |
+| Memory management |      Garbage collecting languages       |  Modern C++ with smart pointers   |   Reusing 🐏 RAM & avoiding GC stalls   |
+| In-Memory copies  | 1+ per read/write + DB cache + OS cache | 1 per write + DB cache + OS cache |   Fitting more data-points in 🐏 RAM    |
+| Parallelism       |            Multi-processing             |   Asynchronous multi-threading    |   Faster sharing between 🧠 CPU cores   |
+| Communications    |                 TCP/IP                  |      DMA or Infiniband RDMA       |    Faster 📡 sharing between servers    |
+| Serialization     |           Plain text or JSON            |              Binary               |   No serialization overhead on 🧠 CPU   |
 
-Interested? [Get in touch for a demo!](mailto:info@unum.xyz).
+Interested? [Get in touch for a demo!](mailto:info@unum.xyz)

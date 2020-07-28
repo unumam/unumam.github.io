@@ -1,13 +1,6 @@
 # Unum.DB
 
-A collection of high-performance persistent ACID databases.
-
-1. [**Fastest on the Market!**](#fastest-on-the-market) 10x-100x performance improvements! Also more compact, than most DBs!
-2. [**No Vendor Lock!**](#no-vendor-lock) Easy to try & go back if you don't like it! No new languages to learn!
-3. [**Extreme Flexibility!**](#extreme-flexibility) Runs on servers, phones or even IoT! No JVM required!
-4. [**Broad Functionality**](#broad-functionality) out of the box and easy integration with most common AI tools!
-
-## Components
+UnumDB is a high-performance persistent [ACID database](https://en.wikipedia.org/wiki/ACID) that supports a wide variety of workloads:
 
 * Graphs, like [Neo4J](https://neo4j.com).
 * Text Search, like [ElasticSearch](https://elastic.co).
@@ -17,6 +10,11 @@ A collection of high-performance persistent ACID databases.
 * High Dimensional Embeddings, unlike anything else.
   
 ## Why Unum?
+
+1. [**Fastest on the Market!**](#fastest-on-the-market) 10x-100x performance improvements! Also more compact, than most DBs!
+2. [**No Vendor Lock!**](#no-vendor-lock) Easy to try & go back if you don't like it! No new languages to learn!
+3. [**Extreme Flexibility!**](#extreme-flexibility) Runs on servers, phones or even IoT! No JVM required!
+4. [**Broad Functionality**](#broad-functionality) out of the box and easy integration with most common AI tools!
 
 ### Fastest on the Market!
 
@@ -73,4 +71,4 @@ If you decide to write your own, those are the points to consider.
 | Communications    |                 TCP/IP                  |      DMA or Infiniband RDMA       |      Faster sharing between servers      |
 | Serialization     |           Plain text or JSON            |              Binary               |   No serialization overhead on **CPU**   |
 
-Interested? [Get in touch for a demo!](mailto:info@unum.xyz)
+**Interested? [Get in touch for a demo!](mailto:info@unum.xyz)**

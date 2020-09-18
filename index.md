@@ -8,10 +8,9 @@
 
 ## Powering Boldest Ideas
 
-* Search Engines.
-* Recommender Systems.
-* Personalized Education.
-* Urban Orchestration.
+* [Semantic Search](https://en.wikipedia.org/wiki/Semantic_search) for scientific and educational purposes.
+* [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system) with real-time updates.
+* [Resouce Allocation](https://en.wikipedia.org/wiki/Resource_allocation) and Urban Orchestration.
 
 ## Contacts
 
@@ -20,4 +19,3 @@
 [GitHub](https://github.com/unumxyz)<br/>
 [LinkedIn](https://linkedin.com/company/unumxyz)<br/>
 [Email](mailto:info@unum.xyz)<br/>
-

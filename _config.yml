@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 title: ' ' # "Unum"
 description: ' '# "Unmatched Software"
 google_analytics: UA-150644745-1
-logo: "unum.png"
+logo: "assets/unum.png"
 
 author:
   name: Ashot Vardanian

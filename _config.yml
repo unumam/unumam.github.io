@@ -1,14 +1,14 @@
 theme: jekyll-theme-minimal
-title: ' ' #unum
-description: ' ' # Artificial Intelligence, but scalable!
+title: ' ' # "Unum"
+description: ' '# "Unmatched Software"
 google_analytics: UA-150644745-1
 logo: "unum.png"
 
 author:
   name: Ashot Vardanian
 
-github:
-  is_project_page: false
+# github:
+#   is_project_page: true
 #   repository_url: https://github.com/UnumXYZ
 #   repository_name: Unum.xyz
 #   owner_url: https://github.com/ashvardanian

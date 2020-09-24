@@ -36,14 +36,14 @@ If you are not satisfied with our product, you can replace the backend implement
 
 Every aspect of UnumDB is adjustable:
 
-* The data can be persisted 
+* The data can be persisted
   * in-memory (like MemSQL or Redis) for real-time analytics or
   * on-disk (like PostgreSQL) for big-data processing.
-* The software can be ditributed as 
-  * embedded library (like SQLite or RocksDB) for datasets under 10 TB or 
+* The software can be ditributed as
+  * embedded library (like SQLite or RocksDB) for datasets under 10 TB or
   * a standalone server app (like MongoDB or PostgreSQL) for larger collections.
 * It will run
-  * on any desktop, mobile or IoT device, 
+  * on any desktop, mobile or IoT device,
   * on local cluster of servers or
   * in the public clouds like AWS and Azure.
 
@@ -59,20 +59,65 @@ The last point is particularly important! It guarantees that the functionality o
 
 ## How can it be so FAST?
 
-Below are some of the bottlenecks we have identified in most modern DBs. <br/>
-If you decide to write your own, those are the points to consider. 
+Below are some of the bottlenecks we have identified in most modern DBs.<br/>
+If you decide to write your own, those are the points to consider.
 
-|                   |            Common Solutions             |          UnumDB Approach          |             **Consequences**             |
-| :---------------- | :-------------------------------------: | :-------------------------------: | :--------------------------------------: |
-| Data layout       |          Row-wise or columnar           |     Optimal for each datatype     |       Less random jumps on **SSD**       |
-| Compression       |    Generic, but slow (Snappy, zlib)     |     Newly invented algorithms     | Writes/reads less bytes to/from **SSD**  |
-| Analytics         |     Integrating 3rd party libraries     |      Co-designed algorithms       | Optimal use of search indexes by **CPU** |
-| Computations      |               Sequential                |         SIMD-Accelerated          | Processing more bytes per **CPU** cycle  |
-| Query language    |   SQL-like with big parsing overhead    |      Simple Python-interface      |   Lower latency for simple operations    |
-| Memory management |      Garbage collecting languages       |  Modern C++ with smart pointers   |   Reusing **RAM** & avoiding GC stalls   |
-| In-Memory copies  | >1 per read/write + DB cache + OS cache | 1 per write + DB cache + OS cache |   Fitting more data-points in **RAM**    |
-| Parallelism       |            Multi-processing             |   Asynchronous multi-threading    |   Faster sharing between **CPU** cores   |
-| Communications    |                 TCP/IP                  |      DMA or Infiniband RDMA       |      Faster sharing between servers      |
-| Serialization     |           Plain text or JSON            |              Binary               |   No serialization overhead on **CPU**   |
+### SSD
+
+* Data layout
+  * Others: Row-wise or columnar
+  * Unum: Optimal for each datatype
+  * Consequences: Less random jumps and more sequential ops
+
+* Compression
+  * Others: Generic, but slow ([Snappy](https://google.github.io/snappy/), [zlib](https://zlib.net))
+  * Unum: Newly invented algorithms
+  * Consequences: Writes/reads less data
+
+### CPU
+
+* Search algorithms
+  * Others: Text-book solutions from 1980s
+  * Unum: Co-designed new algorithms
+  * Consequences: Effective use of buffered probablistic data-structures
+  
+* Algorithm implementations
+  * Others: Sequential
+  * Unum: [SIMD](https://en.wikipedia.org/wiki/SIMD)-accelerated
+  * Consequences: Processing more bytes per cycle
+
+* Parallelism
+  * Other: Multi-processing
+  * Unum: Asynchronous multi-threading
+  * Consequences: Faster sharing between cores
+
+* Serialization
+  * Others: Plain text or JSON
+  * Unum: Binary
+  * Consequences: No serialization overhead
+
+* Query language
+  * Others: SQL-like with big parsing overhead
+  * Unum: Simple Python-bindings
+  * Consequences: Lower latency for point-wise lookups
+
+### RAM
+
+* Memory management
+  * Others: Garbage collecting languages and runtimes
+  * Unum: Modern C++ with smart pointers
+  * Consequences: Avoids GC stalls
+  
+* In-memory copies
+  * Other: >1 per read/write + DB cache + OS cache
+  * Unum: 1 per write + DB cache
+  * Consequences: Fitting more data-points in cache
+  
+### WEB
+
+* In-cluster communications
+  * Others: TCP/IP
+  * Unum: DMA or Infiniband RDMA
+  * Consequences: Faster sharing between servers
 
 **Interested? [Get in touch for a demo!](mailto:info@unum.xyz)**

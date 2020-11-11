@@ -20,8 +20,8 @@ Unum.DB is a high-performance persistent [ACID database](https://en.wikipedia.or
 
 All benchmarks are pubulicly available. They are repeatable and include thousands of data-points. **UnumDB outperforms all competitors in all workloads!**
 
-* [Graph Benchmarks](https://github.com/unumxyz/PyWrappedDBs/tree/master/BenchGraphs/MacbookPro).
-* [Text Search Benchmarks](https://github.com/unumxyz/PyWrappedDBs/tree/master/BenchDocs/MacbookPro).
+* [Graph Benchmarks](https://unum.xyz/db/graph).
+* [Text Search Benchmarks](https://unum.xyz/db/text).
 
 We usually beat the 2nd best result by 10x! That means **90% savings** on your cloud infrastructure or 10x faster service for your customers. [Here is how we reach those numbers](#how-can-it-be-so-fast).
 

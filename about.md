@@ -9,9 +9,9 @@ permalink: /
 
 <table>
     <tr>
-        <th>Data Storage</th>
-        <th>Data Analytics</th>
-        <th>Applications</th>
+        <th><a href="/storage">Data Storage</a> <sup>β</sup></th>
+        <th><a href="/analytics">Data Analytics</a> <sup>Ɑ</sup></th>
+        <th>Applications <sup>Ɑ</sup></th>
     </tr>
     <tr>
         <td style="text-align:center">Just like Postgres or MongoDB, but lighter, faster and easier to use.</td>

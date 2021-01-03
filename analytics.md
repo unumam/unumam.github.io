@@ -7,11 +7,15 @@ permalink: /analytics/
 
 # Analytics Solutions
 
-Once the data is sampled from the storage layer, analytical components are used to infer 
+Once the data is sampled from the storage layer, following analytical components are used to infer insights. Pipelines of such analytical solutions can then be combined into any State-of-the-Art products like:
+
+* Semantic Article Search like by Google and Yandex = [BERT](#transformers) + [kANN](#k-nearest-neighbors-search) + [VectorDB](/storage/graphs) + [DocsDB](/storage/texts).
+* Molecular Modelling and Bio-Research = [Graphlets](#subgraph-isomorphism) + [GNNs](#geometric-deep-learning) + [GraphDB](/storage/graphs).
+* Financial Analysis and Anomaly Detection = [BwNNs](#bitwise--quantized-neural-network) + [Flow Analysis](#max-flow--min-cut) + [GNNs](#geometric-deep-learning) + [GraphDB](/storage/graphs).
 
 ## Machine Learning
 
-### Bitwise Neural Network
+### Bitwise & Quantized Neural Network
 
 ### Geometric Deep Learning
 
@@ -22,3 +26,7 @@ Once the data is sampled from the storage layer, analytical components are used 
 ### Subgraph Isomorphism
 
 ### Max-Flow & Min-Cut
+
+## Computer Science
+
+### K-Nearest Neighbors Search

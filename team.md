@@ -17,7 +17,7 @@ In 2015 he started Unum as a research project and quickly realized it's future p
 
 ## Our Home
 
-Our core team resides in Yerevan, Armenia. A beautiful city with a 2,800 year long history and people focused on Maths and Science. Our campus is located right next to the strongest Maths depratment in the country and has one of the most impressive computing setups in the region.
+Our core team resides in Yerevan, Armenia. A beautiful city with a 2,800 year long history and welcoming people focused on Science and Technology. Our campus is located right next to the strongest Math depratment in the country and has one of the most impressive supercomputing clusters in the region.
 
 Every computer in the office has a direct 10 Gbit/s link to our State-of-the-Art server room with Petabytes of structured textual information. Every member of our team can immediately test his bravest ideas on a scale of a Fortune 500 company or a huge government!
 

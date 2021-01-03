@@ -12,7 +12,7 @@ Almost every modern AI solution uses "embeddings" or "vectors" as intermediate r
 
 Needless to say, you need to store the registry of all encodings. Typically, embeddings have under 1000 dimensions, each encoded with `float32_t`. So each vector can take upto 4 MB and a million of such vectors will fit into RAM. If you have a billion, things get much more complicated and you need UnumDB.
 
-[Reproduce Our Results](github.com/unumam/PyStorageBenchmarks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Reproduce Our Results](https://github.com/unumam/PyStorage){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Sequential Writes: Import Vectors
 

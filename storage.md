@@ -61,6 +61,6 @@ Abandoning legacy approaches allowed us to reach:
 * 10x faster batched insertions.
 * compact implementation in 100'000 lines of C++ code.
 
-[Reproduce Our Results](github.com/unumam/PyStorageBenchmarks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Reproduce Our Results](https://github.com/unumam/PyStorage){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 To study our numbers in details, just explore the following links:

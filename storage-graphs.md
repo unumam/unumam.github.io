@@ -257,3 +257,7 @@ Metric: number removed edges per second.<br/>
 | UnumDB   |    28,980.20    | 20,700.46  | 19,079.61  | **18.91x** |
 
 ![Write Amplification - Written Bytes Per Benchmark](/assets/storage-graphs/Write_Amplification_-_Written_Bytes_Per_Benchmark.svg)
+
+---
+
+> This page will be updated with new results soon.

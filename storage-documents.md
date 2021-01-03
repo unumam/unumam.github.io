@@ -29,3 +29,7 @@ Lickely, not every field in each of your data-points needs to be indexed. Someti
 ### Random Writes: Remove Doc
 
 ### Random Writes: Remove Docs Batch
+
+---
+
+> This page will be updated with new results soon.

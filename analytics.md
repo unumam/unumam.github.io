@@ -9,9 +9,9 @@ permalink: /analytics/
 
 Once the data is sampled from the storage layer, following analytical components are used to infer insights. Pipelines of such analytical solutions can then be combined into any State-of-the-Art products like:
 
-* Semantic Article Search like by Google and Yandex = [BERT](#transformers) + [kANN](#k-nearest-neighbors-search) + [VectorDB](/storage/graphs) + [DocsDB](/storage/texts).
-* Molecular Modelling and Bio-Research = [Graphlets](#subgraph-isomorphism) + [GNNs](#geometric-deep-learning) + [GraphDB](/storage/graphs).
-* Financial Analysis and Anomaly Detection = [BwNNs](#bitwise--quantized-neural-network) + [Flow Analysis](#max-flow--min-cut) + [GNNs](#geometric-deep-learning) + [GraphDB](/storage/graphs).
+* Search Articles like Google or Yandex = [BERT](#transformers) + [kANN](#k-nearest-neighbors-search) + [VectorDB](/storage/graphs) + [DocsDB](/storage/texts).
+* Catalog & Analyze Complex Proteins = [Graphlets](#subgraph-isomorphism) + [GNNs](#geometric-deep-learning) + [GraphDB](/storage/graphs).
+* Detect Anomalies in Financial Transactions = [BwNNs](#bitwise--quantized-neural-network) + [Flow Analysis](#max-flow--min-cut) + [GNNs](#geometric-deep-learning) + [GraphDB](/storage/graphs).
 
 ## Machine Learning
 

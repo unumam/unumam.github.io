@@ -7,9 +7,10 @@ permalink: /team/
 
 ## Our Founder
 
-[Ashot Vardanian](ashvardanian.com/about), is a Computer Scientist and AI Researcher with a background in Astrophysics a diverse list of previous experiences:
+<br/>
+[Ashot Vardanian](ashvardanian.com/about), is a Computer Scientist, AI Researcher and Investor with a background in Astrophysics and a diverse list of previous experiences:
 
-* Programming in C/C++ for ~15 years, creating complex systems and inventing new algorithms
+* Programming in C/C++ for over 10 years, creating complex systems and inventing new algorithms
 * Created his first profitable IT companies before graduating the High-School
 * Was invited to talk about AI, Math and Programming in American, Russian and German professional communities
 
@@ -17,6 +18,7 @@ In 2015 he started Unum as a research project and quickly realized it's future p
 
 ## Our Home
 
+<br/>
 Our core team resides in Yerevan, Armenia. A beautiful city with a 2,800 year long history and welcoming people focused on Science and Technology. Our campus is located right next to the strongest Math depratment in the country and has one of the most impressive supercomputing clusters in the region.
 
 Every computer in the office has a direct 10 Gbit/s link to our State-of-the-Art server room with Petabytes of structured textual information. Every member of our team can immediately test his bravest ideas on a scale of a Fortune 500 company or a huge government!

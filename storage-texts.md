@@ -16,15 +16,15 @@ At such times it's crucial to fetch all the occurences of a specific string or R
 
 ## Datasets
 
-- [Covid19](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) Scientific Papers.
+- [Covid 19](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) Scientific Papers.
   - Documents: 45,941.
   - Sections: 1,604,649.
   - Size: 1,7 GB.
-- [PoliticalTweetsIndia](https://www.kaggle.com/iamyoginth/facthub) Posts.
+- [Political Tweets India](https://www.kaggle.com/iamyoginth/facthub) Posts.
   - Documents: 12,488,144.
   - Sections: 12,488,144.
   - Size: 2,3 GB.
-- [EnglishWikipedia](https://www.kaggle.com/jkkphys/english-wikipedia-articles-20170820-sqlite) Dump from 2017.
+- [English Wikipedia](https://www.kaggle.com/jkkphys/english-wikipedia-articles-20170820-sqlite) Dump from 2017.
   - Documents: 4,902,648.
   - Sections: 23,046,187.
   - Size: 18,2 GB.

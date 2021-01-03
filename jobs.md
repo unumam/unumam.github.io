@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Open Positions
-nav_order: 4
+nav_order: 5
 permalink: /jobs/
 ---
 
@@ -68,12 +68,3 @@ Office location: ISTC, Yerevan, Armenia.<br/>
 Corporate communications language: English.
 
 [Apply Right Now](mailto:a@unum.am){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
----
-
-## Cool Facts about Unum
-
-* Everything including Graph algorithms, Neural Networks, databases and networking code, tests, documentation and CI/CD specifications **fits into just 300K lines of code** (LOC) with dependencies. For comparison:
-  * Just document storage in [MongoDB](https://www.mongodb.com) takes 4M LOC.
-  * Just ML in [TensorFlow](https://www.tensorflow.org) takes 2M LOC.
-  * Just RegEx matching [Intel.HyperScan](https://www.hyperscan.io) takes 180K LOC.

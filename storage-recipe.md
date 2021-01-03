@@ -122,3 +122,22 @@ The sad reality is that still most of the distributed systems still rely on the 
 ---
 
 > <sup>1</sup> Everything is relative. DRAM is fast compared to NAND Flash, but extremely slow compared to SRAM on your CPU. It takes thousands of CPU cycles to retreive a single 32-bit integer from DRAM, but only one CPU cycle to perform an addition or subtraction.
+
+
+|              Operation               | Energy Costs <sup>1</sup> |
+| :----------------------------------: | :-----------------------: |
+|           Integer Addition           |         **1 pJ**          |
+|            Load from SRAM            |           3 pJ            |
+|          Move 10 mm on-chip          |           30 pJ           |
+|            Send off-chip             |          500 pJ           |
+|             Send to DRAM             |           1 nJ            |
+| Read from NAND Flash SSD<sup>2</sup> |   **2 μJ** <sup>3</sup>   |
+|            Send over LTE             |           10 μJ           |
+
+Means, simply accessing an integer from DRAM is 1'000x more expensive, than operating on it.
+Furthermore, DRAM is very expensive and volatile (energy-dependant).
+
+1. Following are approximate numbers accurate only in relative to each other terms. 
+2. SSDs don't address single bytes. Generally the 2-4 KB pages are grouped into 128 KB blocks.
+3. According to "A comprehensive study of energy efficiency and performance of flash-based SSD". [Paper](http://www.cse.psu.edu/~buu1/papers/ps/park-jsa11.pdf).
+

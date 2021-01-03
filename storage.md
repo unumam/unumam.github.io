@@ -8,29 +8,13 @@ permalink: /storage/
 
 # Storage Solutions
 
-Unum comes with a database engine, with astonishing performance. Let's see why it's important to have fast data storage.
+A high-end server like [DGX A100](https://www.nvidia.com/en-us/data-center/dgx-a100/) comes with following components:
 
-## Energy Costs
+* 2x CPUs (with shared RAM),
+* 8x GPUs (each with private VRAM) and
+* 2x SSDs.
 
-Contrary to popular opinion, performing arithmetical operations in a computer is orders of magnitude cheaper, that fetching the data for those computations.
-
-|              Operation               | Energy Costs <sup>1</sup> |
-| :----------------------------------: | :-----------------------: |
-|           Integer Addition           |         **1 pJ**          |
-|            Load from SRAM            |           3 pJ            |
-|          Move 10 mm on-chip          |           30 pJ           |
-|            Send off-chip             |          500 pJ           |
-|             Send to DRAM             |           1 nJ            |
-| Read from NAND Flash SSD<sup>2</sup> |   **2 μJ** <sup>3</sup>   |
-|            Send over LTE             |           10 μJ           |
-
-Means, simply accessing an integer from DRAM is 1'000x more expensive, than operating on it.
-Furthermore, DRAM is very expensive and volatile (energy-dependant).
-So if your business needs to process a lot of data — you can't store it in RAM and will have to fetch it from a storage devices.
-
-## Time Costs
-
-Energy consumption aside, it takes a different amount of time to exchange data between different parts of the computer.
+## How much data can potentially flow in each direction?
 
 |                                    Channel                                    |  Bandwidth  |
 | :---------------------------------------------------------------------------: | :---------: |
@@ -40,43 +24,43 @@ Energy consumption aside, it takes a different amount of time to exchange data b
 |   CPU ⇌ GPU [via PCI-E Gen3 x16](https://en.wikipedia.org/wiki/PCI_Express)   |  ~15 GB/s   |
 | CPU ⇌ SSD [via NVMe PCI-E Gen3 x4](https://en.wikipedia.org/wiki/NVM_Express) |  << 4 GB/s  |
 
-CPU ⇌ SSD communication channel is by far the slowest link in the chain.
-The theoretical throughput of that channel is limited to 4 GB/s, but in the real world most reads happen at 200 MB/s.
-This means, that even if you buy the most expensive CPUs and GPUs, they may spend 90% idling - simply waiting for the data to come.
-Modern Machine Learning approaches almost universally improve when trained on bigger datasets.
-So if you want to have competitve analytics, you need a fast database.
+Logic tells, "a computer must spend it's time computing", in other words utilizing the (CPU ⇌ RAM) and (GPU ⇌ VRAM) channels. But the numbers tell a different story.
 
-## What are the options?
+Unless you are doing very complex computations, your fast CPUs and GPUs may very well spend their clock cycles waiting for data to come from SSDs. The (CPU ⇌ SSD) link is the slowest in the chain. It's theoretical throughput (for Gen3 PCI-E) is 4 GB/s, but the real world reads often degrade to 200 MB/s.
 
-The databases that we compare across a broad range of workloads include:
+## How to choose a DBMS for you workload?
 
-|                         |          Unum          | MongoDB | Postgres | Neo4J | ElasticSearch |
-| :---------------------: | :--------------------: | :-----: | :------: | :---: | :-----------: |
-|         Purpose         | Nets, Text, Vecs, Docs |  Docs   |  Tables  | Nets  |     Text      |
-| Implementation Language |          C++           |   C++   |    C     | Java  |     Java      |
-|      Lines of Code      |         100 K          | 3900 K  |  1300 K  | 800 K |     300 K     |
+Every business application has a custom data layout and unique access patterns. That's why we have made our DBMS more flexible. It works with more data types, than any other major company.
 
-How big can be the difference?
+|          | Documents | [Texts](/storage/texts/) | [Networks](/storage/graphs/) | Vectors |
+| :------: | :-------: | :----------------------: | :--------------------------: | :-----: |
+| Postgres |     🐢     |            🐌             |              no              |   no    |
+| MongoDB  |     👍     |            🐢             |              no              |   no    |
+| Elastic  |     🐌     |            👍             |              no              |   no    |
+|  Neo4J   |    no     |            no            |              🐢               |   no    |
+|   Unum   |    🥇🥇🥇    |           🥇🥇🥇            |             🥇🥇🥇              |   🥇🥇🥇   |
+
+It's worth noting that "no" means that there is no out-of-the-box support for such workloads. DBMSs can be retrofited with any functionality. [Here](https://opendistro.github.io/for-elasticsearch/blog/odfe-updates/2020/04/Building-k-Nearest-Neighbor-(k-NN)-Similarity-Search-Engine-with-Elasticsearch/) authors describe how one can do vector search on top of Elastic. The resulting performance of such configurations is generally quite low.
+
+## How much faster UnumDB is?
+
+We generally benchmark UnumDB against following competitors:
+
+1. [SQLite](https://www.sqlite.org) is the most minimalistic SQL database.
+2. [MySQL](https://www.mysql.com) is the most widely used Open-Source DB in the world.
+3. [Postgres](https://www.postgresql.org) is the 2nd most popular Open-Source DB. Implemented in 1'300'000 lines of C++ code.
+4. [MongoDB](https://www.mongodb.com) is the most popular NoSQL database. Implemented in 3'900'000 lines of C++ code.
+5. [Neo4J](https://neo4j.com) is the most popular graph database. Implemented in 800'000 lines of Java code.
+6. [ElasticSearch](https://www.elastic.co) is the most popular indexing software. Implemented in 300'000 lines of Java code on top the [Lucene](https://lucene.apache.org) C engine.
+
+Abandoning legacy approaches allowed us to reach:
 
 * 50x faster dataset imports.
 * 5x smaller compressed representations.
 * 100x faster random lookups.
 * 10x faster batched insertions.
+* compact implementation in 100'000 lines of C++ code.
 
-Again, if you want to have competitve analytics, you need a fast database.<br/>
-If you want to build the best AI in your industry - you need Unum.
+[Reproduce Our Results](github.com/unumam/PyStorageBenchmarks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-[Check our Benchmarks](/storage/graphs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
-
----
-
-1. Following are approximate numbers accurate only in relative to each other terms. 
-2. SSDs don't address single bytes. Generally the 2-4 KB pages are grouped into 128 KB blocks.
-3. According to "A comprehensive study of energy efficiency and performance of flash-based SSD". [Paper](http://www.cse.psu.edu/~buu1/papers/ps/park-jsa11.pdf).
-4. [SQLite](https://www.sqlite.org) is the most minimalistic SQL database.
-5. [MySQL](https://www.mysql.com) is the most widely used Open-Source DB in the world.
-6. [Postgres](https://www.postgresql.org) is the 2nd most popular Open-Source DB.
-7. [MongoDB](https://www.mongodb.com) is the most popular NoSQL database.
-8. [Neo4J](https://neo4j.com) is the most popular graph database.
-
-[The Most Popular Open Source Databases 2020](https://www.percona.com/blog/2020/04/22/the-state-of-the-open-source-database-industry-in-2020-part-three/).
+To study our numbers in details, just explore the following links:

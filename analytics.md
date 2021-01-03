@@ -7,6 +7,8 @@ permalink: /analytics/
 
 # Analytics Solutions
 
+Once the data is sampled from the storage layer, analytical components are used to infer 
+
 ## Machine Learning
 
 ### Bitwise Neural Network

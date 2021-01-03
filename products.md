@@ -18,6 +18,7 @@ permalink: /
         <th width="33%"><h2><a href="/storage">Data Storage</a> <sup>β</sup></h2></th>
         <th width="33%"><h2><a href="/analytics">Data Analytics</a> <sup>α</sup></h2></th>
         <th width="33%"><h2>Applications <sup>α</sup></h2></th>
+        <!-- 𝛽 𝛼 -->
     </tr>
     <tr>
         <td style="text-align:center">Just like Postgres or MongoDB, but lighter, faster and easier to use.</td>
@@ -58,4 +59,4 @@ permalink: /
 
 # Sounds Interesting?
 
-[Reach Us for a PetaScale Demo!](mailt:a@unum.am){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Our Team](/jobs/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Request a Peta-Scale Demo!](mailt:a@unum.am){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Our Team](/jobs/){: .btn .fs-5 .mb-4 .mb-md-0 }

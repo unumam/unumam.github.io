@@ -16,8 +16,8 @@ permalink: /
     </tr>
     <tr>
         <th width="33%"><h2><a href="/storage">Data Storage</a> <sup>β</sup></h2></th>
-        <th width="33%"><h2><a href="/analytics">Data Analytics</a> <sup>Ɑ</sup></h2></th>
-        <th width="33%"><h2>Applications <sup>Ɑ</sup></h2></th>
+        <th width="33%"><h2><a href="/analytics">Data Analytics</a> <sup>α</sup></h2></th>
+        <th width="33%"><h2>Applications <sup>α</sup></h2></th>
     </tr>
     <tr>
         <td style="text-align:center">Just like Postgres or MongoDB, but lighter, faster and easier to use.</td>

@@ -11,7 +11,7 @@ permalink: /
 <table>
     <tr>
         <th><img style="height:50%;" src="/assets/icons/icons8-database-100.png"></th>
-        <th><img style="height:50%;" src="/assets/icons/icons8-customer-insight-100.png"></th>
+        <th><img style="height:50%;" src="/assets/icons/icons8-financial-analytics-100.png></th>
         <th><img style="height:50%;" src="/assets/icons/icons8-customer-insight-100.png"></th>
     </tr>
     <tr>

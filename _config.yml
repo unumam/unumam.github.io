@@ -9,6 +9,7 @@ github_username:  unumam
 google_analytics: UA-150644745-1
 
 # Build settings
+# https://github.com/pmarsceill/just-the-docs/issues/297
 # theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 plugins:

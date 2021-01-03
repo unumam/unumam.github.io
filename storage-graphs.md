@@ -14,18 +14,6 @@ At Unum we develop a neuro-symbolic AI, which means combining discrete structura
 
 ## Setup
 
-Databases were configured to use 512 MB of RAM for cache and 4 cores for query execution.
-
-### Device
-
-- CPU:
-  - Model: `Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz`.
-  - Cores: 8 (16 threads @ 2.3 Ghz).
-- RAM Space: 16.0 GB.
-- Disk Space: 931.5 GB.
-- OS Family: Darwin.
-- Python Version: 3.7.7.
-
 ### Datasets
 
 - [Patent Citation Network](http://networkrepository.com/cit-patent.php).
@@ -40,6 +28,18 @@ Databases were configured to use 512 MB of RAM for cache and 4 cores for query e
   - Size: 4 GB.
   - Edges: 87'273'967.
   - Average Degree: 186.
+
+### Device
+
+- CPU:
+  - Model: `Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz`.
+  - Cores: 8 (16 threads @ 2.3 Ghz).
+- RAM Space: 16.0 GB.
+- Disk Space: 931.5 GB.
+- OS Family: Darwin.
+- Python Version: 3.7.7.
+
+Databases were configured to use 512 MB of RAM for cache and 4 cores for query execution.
 
 ## Sequential Writes: Import CSV (edges/sec)
 

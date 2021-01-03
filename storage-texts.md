@@ -14,7 +14,9 @@ At such times it's crucial to fetch all the occurences of a specific string or R
 
 [Reproduce Our Results](github.com/unumam/PyStorageBenchmarks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-## Datasets
+## Setup
+
+### Datasets
 
 - [Covid 19](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) Scientific Papers.
   - Documents: 45,941.
@@ -28,6 +30,18 @@ At such times it's crucial to fetch all the occurences of a specific string or R
   - Documents: 4,902,648.
   - Sections: 23,046,187.
   - Size: 18,2 GB.
+
+### Device
+
+- CPU:
+  - Model: `Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz`.
+  - Cores: 8 (16 threads @ 2.3 Ghz).
+- RAM Space: 16.0 GB.
+- Disk Space: 931.5 GB.
+- OS Family: Darwin.
+- Python Version: 3.7.7.
+
+Databases were configured to use 512 MB of RAM for cache and 4 cores for query execution.
 
 ## Sequential Writes: Import CSV (docs/sec)
 

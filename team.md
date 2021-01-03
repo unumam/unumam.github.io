@@ -25,6 +25,7 @@ Every computer in the office has a direct 10 Gbit/s link to our State-of-the-Art
 
 ## Our Lectures
 
+<br/>
 Most of our research remains private, but we sometimes share our findings and data-processing methodologies in conferences worldwide:
 
 * Computational graphs and AI in C++.

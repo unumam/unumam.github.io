@@ -10,9 +10,9 @@ permalink: /
 <br/>
 <table>
     <tr>
-        <th><img style="height:50%;" src="/assets/icons/icons8-database-100.png"></th>
-        <th><img style="height:50%;" src="/assets/icons/icons8-financial-analytics-100.png"></th>
-        <th><img style="height:50%;" src="/assets/icons/icons8-customer-insight-100.png"></th>
+        <th><img style="height:50%;" src="/assets/icons/icons8-big-data-100.png"></th>
+        <th><img style="height:50%;" src="/assets/icons/icons8-genealogy-100.png"></th>
+        <th><img style="height:50%;" src="/assets/icons/icons8-how-many-quest-100.png"></th>
     </tr>
     <tr>
         <th width="33%"><h2><a href="/storage">Data Storage</a> <sup>β</sup></h2></th>

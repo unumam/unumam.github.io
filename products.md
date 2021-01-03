@@ -45,9 +45,9 @@ permalink: /
         <th><img style="height:50%;" src="/assets/icons/icons8-module-100.png"></th>
     </tr>
     <tr>
-        <th width="33%"><h3>New Algorithms and Data Structures</h3></th>
-        <th width="33%"><h3>Hardware-optimal Implementations</h3></th>
-        <th width="33%"><h3>Co-designed Components</h3></th>
+        <th width="33%"><h3>New Algorithms and<br/>Data Structures</h3></th>
+        <th width="33%"><h3>Hardware-Optimal<br/>Implementations</h3></th>
+        <th width="33%"><h3>Co-Designed<br/>Components</h3></th>
     </tr>
     <tr>
         <td style="text-align:center">Most companies still rely on algorithms designed in 1980s. We put math back into computer science to tame the asymptotical curve.</td>

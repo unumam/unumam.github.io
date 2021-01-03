@@ -25,9 +25,9 @@ Skills and experiences are relevant, but so is the ability to learn new technolo
 * We don’t fully rely on any major third party software, but it helps if you are familiar with:
   * [Google Test](https://github.com/google/googletest) - C++ unit-testing lib,
   * [Google Benchmark](https://github.com/google/benchmark) - C++ microbenchmarking lib,
-  * [PyBind11](https://pybind11.readthedocs.io/en/stable/) - a bridge connecting out Python frontend with C++ backend,
-  * [Conan]() - Python-based dependency-managemet for C++,
-  * [Docker]() - ,
+  * [PyBind11](https://pybind11.readthedocs.io/en/stable/) - a bridge connecting our Python frontend with C++ backend,
+  * [Conan](https://conan.io) - Python-based dependency-managemet for C++,
+  * [Docker](https://www.docker.com) - containerization software,
   * [Taskflow](https://taskflow.github.io) - C++ dataflow scheduling across CPU threads and CUDA kernels,
   * [Halide](https://halide-lang.org) - LLVM-based C++ library for loop-optimizations,
   * [PyTorch](https://pytorch.org) - a modern general-purpose machine-learning framework,
@@ -45,22 +45,22 @@ Skills and experiences are relevant, but so is the ability to learn new technolo
 
 ## Jobs
 
-* **Senior C++ Database Developer**, who will work on:
+* **C++ Database Developer**, to work on:
   * Persistent data-structures,
   * Sharding & replication strategies,
   * Fast query-resolution backend.
 
-* **Senior C++/Python Analytics Developer**, who will work on:
+* **C++/Python Analytics Developer**, to work on:
   * PyTorch C++ backend integration,
   * Rapids.ai and NetworkX interop,
   * New streaming ML algorithms,
   * Data extraction and analysis for search applications.
 
-* Python SaaS Deployment Engineer, who will work on:
+* Python SaaS Deployment Engineer, to work on:
   * Terraform provider plugin for DB installation,
   * Stripe payments acquisition.
   
-* Python/JS Front-end Developer, who will work on:
+* Python/JS Front-end Developer, to work on:
   * Online DB health monitoring,
   * Graph visualization GUI.
 

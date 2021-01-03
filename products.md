@@ -11,7 +11,7 @@ permalink: /
 <table>
     <tr>
         <th><img style="height:50%;" src="/assets/icons/icons8-database-100.png"></th>
-        <th><img style="height:50%;" src="/assets/icons/icons8-financial-analytics-100.png></th>
+        <th><img style="height:50%;" src="/assets/icons/icons8-financial-analytics-100.png"></th>
         <th><img style="height:50%;" src="/assets/icons/icons8-customer-insight-100.png"></th>
     </tr>
     <tr>
@@ -30,9 +30,9 @@ permalink: /
 
 * [100x faster](storage/graphs/#random-reads-find-friends) relational lookups than Postgres.
 * 20x faster RegEx matching than PCRE2.
-* 40x faster text indexing than ElasticSearch.
+* [45x faster](storage/texts/#sequential-writes-import-csv-docssec) text indexing than ElasticSearch.
 
-[Detailed Benchmarks](github.com/unumam/PyStorageBenchmarks){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Detailed Benchmarks](/storage/graphs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 # All Thanks to Three Simple Ingridients
 
@@ -58,8 +58,4 @@ permalink: /
 
 # Sounds Interesting?
 
-[Reach Us for a PetaScale Demo!](mailt:a@unum.am){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
----
-
-> Unum LLC. All rights reserved.
+[Reach Us for a PetaScale Demo!](mailt:a@unum.am){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Join Our Team](/jobs/){: .btn .fs-5 .mb-4 .mb-md-0 }

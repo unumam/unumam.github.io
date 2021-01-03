@@ -9,7 +9,8 @@ github_username:  unumam
 google_analytics: UA-150644745-1
 
 # Build settings
-theme: just-the-docs
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 

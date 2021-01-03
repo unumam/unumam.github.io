@@ -1,42 +1,34 @@
-theme: jekyll-theme-minimal
-title: ' ' # "Unum"
-description: ' '# "Unmatched Software"
+title: Unum
+email: info@unum.am
+description: >- # this means to ignore newlines until "baseurl:"
+  A research-heavy software company focused on High Performance Computing, Artificial Intelligence and their applications
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://unum.am
+twitter_username: unum_am
+github_username:  unumam
 google_analytics: UA-150644745-1
-logo: "assets/unum.png"
 
-author:
-  name: Ashot Vardanian
+# Build settings
+theme: just-the-docs
+plugins:
+  - jekyll-feed
 
-# github:
-#   is_project_page: true
-#   repository_url: https://github.com/UnumXYZ
-#   repository_name: Unum.xyz
-#   owner_url: https://github.com/ashvardanian
-#   owner_name: Ashot Vardanian
-  
-# social_links:
-#   email: "a@unum.xyz"
-#   facebook: ashvardanian
-#   github: ashvardanian
-#   twitter: ashvardanian
-#   reddit: ashvardanian
-#   linkedin: ashvardanian
-#   stackoverflow: "2766161/ashot-vardanian"
-#   instagram: ashvardanian
-#   youtube: user/ashvardanian
-#   yelp: ashvardanian
-  
-# share-links-active:
-#   twitter: true
-#   facebook: true
-#   linkedin: true
-
+# Exclude from processing.
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - build.sh
   - CHANGELOG.md
   - CNAME
   - Dockerfile
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
   - Vagrantfile

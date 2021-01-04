@@ -23,15 +23,15 @@ permalink: /
     <tr>
         <td style="text-align:center">Similar to Postgres or MongoDB and other DBMSs.</td>
         <td style="text-align:center">Similar to Pandas, TensorFlow and PyTorch.</td>
-        <td style="text-align:center">From Anomaly Detection to Forecastng and Recommender Engines.</td>
+        <td style="text-align:center">From Anomaly Detection to Forecasting and Recommender Engines.</td>
     </tr>
 </table>
 
 # That Reaches Impressive Results
 
 * [100x faster](storage/graphs/#random-reads-find-friends) relational lookups than Postgres.
-* 20x faster RegEx matching than PCRE2.
 * [45x faster](storage/texts/#sequential-writes-import-csv-docssec) text indexing than ElasticSearch.
+* 20x faster RegEx matching than PCRE2.
 
 [Detailed Benchmarks](/storage/graphs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 

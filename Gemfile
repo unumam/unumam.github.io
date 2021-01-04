@@ -13,8 +13,9 @@ source "https://rubygems.org"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'just-the-docs' # XXX Our Jekyll theme - See https://pmarsceill.github.io/just-the-docs/
-  gem "github-pages" # XXX Necessary to reproduce the behaviour of GitHub Pages - When this is loaded, "jekyll" must not be bundled because it's included within
+  gem "just-the-docs" # Theme: https://pmarsceill.github.io/just-the-docs/
+  gem "jekyll-analytics" # GoogleAnalytics integration: https://github.com/hendrikschneider/jekyll-analytics
+  gem "github-pages"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

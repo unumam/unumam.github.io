@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Performance Recipe
-nav_order: 5
-parent: Storage Solutions
-permalink: /storage/recipe/
+title: Designing Fast Storage
+nav_order: 1
+parent: Lectures & Materials
+permalink: /lectures/storage-recipe/
 ---
 
 # Why our Storage is so Fast?
+
+## Summary
 
 A modern DBMS can be viewed as a composition of following layers:
 
@@ -15,6 +17,25 @@ A modern DBMS can be viewed as a composition of following layers:
 3. A distributed load-balancer and replication manager like [GreenPlum](https://greenplum.org).
 
 Depending on your performance goals you may have to optimize one or more layers in this equation. We replaced all of them with custom solutions. Assuming a DBMS implementation size can reach millions of lines of code, there are many design decisions to make. Let's group them by affected computer component.
+
+---
+
+- [Why our Storage is so Fast?](#why-our-storage-is-so-fast)
+  - [Summary](#summary)
+  - [SSD](#ssd)
+    - [Data Layout](#data-layout)
+    - [Compression](#compression)
+  - [CPU](#cpu)
+    - [Search Algorithms](#search-algorithms)
+    - [Optimized Implementations](#optimized-implementations)
+    - [Parallelism, Concurrency and Serialization](#parallelismconcurrency-and-serialization)
+  - [RAM](#ram)
+    - [Memory Management](#memory-management)
+    - [Memory Accesses](#memory-accesses)
+  - [WEB](#web)
+    - [Communication Protocols](#communication-protocols)
+
+---
 
 ## SSD
 
@@ -75,7 +96,7 @@ When we identify a hot data-flow path, we start optimizing. We can either proces
 
 If the data batches are in 100 MB - 10 GB range, we often switch to GPUs and implement our kernels with CUDA, OpenCL, Halide, SyCL and all kinds of other heterogeneus computing technologies.
 
-[Read About Our Software Stack](/jobs/#technology-stack){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Read About Our Software Stack](/jobs/#current-technology-stack){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ### Parallelism, Concurrency and Serialization
 

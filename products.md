@@ -33,7 +33,7 @@ permalink: /
 * [45x faster](storage/texts/#sequential-writes-import-csv-docssec) text indexing than ElasticSearch.
 * 20x faster RegEx matching than PCRE2.
 
-[Detailed Benchmarks](/storage/graphs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Detailed Benchmarks](/storage/graphs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/lectures/storage-recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 # All Thanks to Three Simple Ingridients
 

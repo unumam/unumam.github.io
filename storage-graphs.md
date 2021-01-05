@@ -10,7 +10,7 @@ permalink: /storage/graphs/
 
 At Unum we develop a neuro-symbolic AI, which means combining discrete structural representations of data and semi-continuous neural representations. Think of it as building a huge [Knowledge Graphs](https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/). Such graphs have extremely irregular structure, which makes data access patterns very unpredictable. Sounds like an ultimate workload for a serious DBMS benchmark.
 
-[Reproduce Our Results](https://github.com/unumam/PyStorage){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/storage/recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Reproduce Our Results](https://github.com/unumam/PyStorage){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/lectures/storage-recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Setup
 

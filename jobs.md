@@ -1,16 +1,32 @@
 ---
 layout: default
 title: Open Positions
-nav_order: 5
+nav_order: 6
 permalink: /jobs/
 ---
 
 # Open Positions
 
+We invite you to join our R&D campus in [ISTC, Yerevan, Armenia](https://goo.gl/maps/oFUpANPHHSmSDWYd8).<br/>
+You will have the opportunity to work on the most challenging problems in Computer Science to date.<br/>
+
+---
+
 Unum is a startup, so the roles shift a lot.<br/>
 Skills and experiences are relevant, but so is the ability to learn new technologies.
 
-## Technology Stack
+## What We Offer?
+
+* Ability to combine PhD Research with work and professional growth in:
+  * Theoretical Computer Science
+  * AI & Deep Learning
+* State-of-the-Art Office Facility:
+  * Newest Server Hardware
+  * Integration with the Yerevan State University
+* Flexible Schedule
+* Industry-standard Salaries and Bonuses
+
+## Current Technology Stack
 
 * Programming Languages:
   * 90% C++ 20 (including OpenCL, CUDA and SIMD x86/ARM Assembly),
@@ -43,7 +59,7 @@ Skills and experiences are relevant, but so is the ability to learn new technolo
   * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Python web-framework,
   * [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - Python SaaS integration package.
 
-## Jobs
+## Who Are We Looking For?
 
 * **C++ Database Developer**, to work on:
   * Persistent data-structures,
@@ -63,8 +79,5 @@ Skills and experiences are relevant, but so is the ability to learn new technolo
 * Python/JS Front-end Developer, to work on:
   * Online DB health monitoring,
   * Graph visualization GUI.
-
-Office location: ISTC, Yerevan, Armenia.<br/>
-Corporate communications language: English.
 
 [Apply Right Now](mailto:a@unum.am){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

@@ -8,7 +8,7 @@ permalink: /team/
 ## Our Founder
 
 <br/>
-[Ashot Vardanian](ashvardanian.com/about), is a Computer Scientist, AI Researcher and Investor with Astrophysics background and a diverse list of previous experiences:
+[Ashot Vardanian](https://ashvardanian.com/about), is a Computer Scientist, AI Researcher and Investor with Astrophysics background and a diverse list of previous experiences:
 
 * Creating complex systems and inventing new algorithms in [C/C++ for over 10 years](https://github.com/ashvardanian),
 * Created his first [profitable IT companies](https://linkedin.com/in/ashvardanian) before graduating the High-School,
@@ -23,4 +23,4 @@ Our core team resides in Yerevan, Armenia. A beautiful city with a 2,800 year lo
 
 Every computer in the office has a direct 10 Gbit/s link to our State-of-the-Art server room with Petabytes of structured textual information. Every member of our team can immediately test his bravest ideas on a scale of a Fortune 500 company!
 
-[Read Our Articles](/lectures/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Become Part of Unum](/jobs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Read Our Articles](/lectures/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Become Part of Unum](/jobs/){: .btn .fs-5 .mb-4 .mb-md-0 }

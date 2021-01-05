@@ -29,8 +29,8 @@ Skills and experiences are relevant, but so is the ability to learn new technolo
 ## Current Technology Stack
 
 * Programming Languages:
-  * 90% C++ 20 (including OpenCL, CUDA and SIMD x86/ARM Assembly),
-  * 10% Python.
+  * 90% modern C/C++ (including OpenCL, CUDA and x86/ARM inlined SIMD Assembly),
+  * 10% Python for glue code and integrated benchmarks.
 
 * Frequently used data-structures:
   * Graphs,

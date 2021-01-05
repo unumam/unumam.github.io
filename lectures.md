@@ -31,6 +31,6 @@ Most of our research remains private, but we sometimes share our findings and da
   * C++ Community Meetup #1, Yerevan, Armenia.
   * [GitHub](https://github.com/ashvardanian/CppBenchSubstrSearch), [Youtube](https://youtu.be/ft51yJ9mDcc?t=140).
 
-[Become Part of Unum](/jobs){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Become Part of Unum](/jobs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 # Our Posts

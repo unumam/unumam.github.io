@@ -8,9 +8,9 @@ permalink: /storage/graphs/
 
 # Networks Processing Performance
 
-At Unum we develop a neuro-symbolic AI, which means combining discrete structural representations of data and semi-continuous neural representations. Think of it as building a huge [Knowledge Graphs](https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/). Such graphs have extremely irregular structure, which makes data access patterns very unpredictable. Sounds like an ultimate workload for a serious DBMS benchmark.
+At Unum, we develop a neuro-symbolic AI, which means combining discrete structural representations of data and semi-continuous neural representations. Think of it as building a huge [Knowledge Graphs](https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/). Such graphs have an extremely irregular structure, which makes data access patterns very unpredictable. Sounds like an ultimate workload for a serious DBMS benchmark.
 
-[Reproduce Our Results](https://github.com/unumam/PyStorage){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/lectures/storage-recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Reproduce Our Results](https://github.com/unumam/PyStorage){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingredients](/lectures/storage-recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Setup
 
@@ -45,7 +45,7 @@ Databases were configured to use 512 MB of RAM for cache and 4 cores for query e
 
 Every datascience project starts by importing the data.
 Let's see how long it will take to load an adjacency list into each DB.
-But before comparing DBs, let's see what our SSD is capable of by simply parsing the list (2 or 3 column CSV).
+But before comparing DBs, let's see what our SSD is capable of by simply parsing the list (2 or 3 columns CSV).
 This will be our baseline for estimating the time required to build the indexes in each DB.
 
 |                   | PatentCitations |  MouseGenes  |  HumanBrain  |   Gains    |
@@ -57,7 +57,7 @@ Most DBs provide some form functionality for faster bulk imports, but not all of
 
 - Neo4J supports CSV imports, but it requires duplicating the imported file and constantly crashes (due to Java heap management issues).
 - Postgres and MySQL dialects of SQL have special functions for importing CSVs, but their functionality is very limited and performance gains aren't substantial. A better approach is to use unindexed table of incoming edges and later submit it into the main store once the data is absorbed. That's how we implemented it.
-- MongoDB provides a command line tool, but it wasn't used to limit the number of binary dependencies and simplify configuration.
+- MongoDB provides a command-line tool, but it wasn't used to limit the number of binary dependencies and simplify configuration.
 
 |          | PatentCitations |  MouseGenes  | HumanBrain |    Gains    |
 | :------- | :-------------: | :----------: | :--------: | :---------: |
@@ -67,7 +67,7 @@ Most DBs provide some form functionality for faster bulk imports, but not all of
 | MongoDB  |    32,917.56    |  39,077.58   | 29,843.12  |    5.26x    |
 | UnumDB   |   253,298.95    | 1,056,780.56 | 819,382.93 | **106.78x** |
 
-The benchmarks were repeated dozens of times. 
+The benchmarks were repeated dozens of times.
 These numbers translate into following import duration for each dataset.
 
 |          | PatentCitations  |    MouseGenes    |    HumanBrain    |
@@ -78,20 +78,20 @@ These numbers translate into following import duration for each dataset.
 | MongoDB  | 8 mins, 22 secs  | 6 mins, 11 secs  | 48 mins, 44 secs |
 | UnumDB   |  1 mins, 5 secs  | 0 mins, 14 secs  | 1 mins, 47 secs  |
 
-Those benchmarks only tell half of the story. 
-SSDs have a relatively short lifespan, especially new high-capacity technologies like TLC and QLC. 
-Most DBs don't have high-performance bulk I/O options. 
-It means, that when you import the data there is no way to inform the DB about various properties of the imported dataset. 
-Which in turn results in huge write-amplification. 
+Those benchmarks only tell half of the story.
+SSDs have a relatively short lifespan, especially new high-capacity technologies like TLC and QLC.
+Most DBs don't have high-performance bulk I/O options.
+It means, that when you import the data there is no way to inform the DB about various properties of the imported dataset.
+Which in turn results in huge write-amplification.
 Combine this with inefficient and slow built-in compression and prepare to give all your money to AWS!
 
 ![Import Overhead - Total Bytes Written](/assets/storage-graphs/Import_Overhead_-_Total_Bytes_Written.svg)
 
-Once the data is imported, it's on-disk representation has different layouts in each DB. 
-Some are more compact than others. For comparison, let's take the `HumanBrain` 4 GB graph. 
-According to graph above, a total of 5.3 GB was writen during the import. 
-However, thanks to our compression, the resulting DB size is only 0.8 GB. 
-Same graph uses ~3.5 GB in MongoDB, ~15 GB in MySQL, ~15 GB in Postgres and ~15 GB in SQLite.
+Once the data is imported, it's on-disk representation has different layouts in each DB.
+Some are more compact than others. For comparison, let's take the `HumanBrain` 4 GB graph.
+According to the chart above, a total of 5.3 GB was written during the import.
+However, thanks to our compression, the resulting DB size is only 0.8 GB.
+The same graph uses ~3.5 GB in MongoDB, ~15 GB in MySQL, ~15 GB in Postgres, and ~15 GB in SQLite.
 
 ## Read Queries
 
@@ -109,7 +109,7 @@ can't be a bottleneck.
 ### Random Reads: Find Specific Edge
 
 Input: 2 vertex identifiers (order is important).<br/>
-Output: edge that connects them in given direction.<br/>
+Output: edge that connects them in a given direction.<br/>
 Metric: number of queries per second.<br/>
 
 |          | PatentCitations | MouseGenes | HumanBrain |    Gains    |

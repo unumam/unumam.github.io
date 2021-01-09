@@ -12,7 +12,7 @@ Most of the data that flows into our analytical pipelines originally has textual
 Afterwards it transforms into a more structured representation, but we often re-evaluate the same context once more related data arrives.
 At such times it's crucial to fetch all the occurences of a specific string or RegEx pattern, so we need a fast text index!
 
-[Reproduce Our Results](https://github.com/unumam/PyStorage){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingridients](/lectures/storage-recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Reproduce Our Results](https://github.com/unumam/PyStorage){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Our Performance Ingredients](/lectures/storage-recipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Setup
 

@@ -1,11 +1,11 @@
 title: Unum
 email: info@unum.am
-description: >- # this means to ignore newlines until "baseurl:"
-  A research-heavy software company focused on High Performance Computing, Artificial Intelligence and their applications
+description: A research-heavy software company focused on High Performance Computing, Artificial Intelligence and their applications
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://unum.am
 twitter_username: unum_am
 github_username:  unumam
+logo: "/apple-icon.png"
 
 # Build settings
 # https://github.com/pmarsceill/just-the-docs/issues/297

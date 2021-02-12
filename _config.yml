@@ -15,11 +15,8 @@ plugins:
   - jekyll-feed
   - jekyll-analytics
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-150644745-1
-    anonymizeIp: false
-
+ga_tracking: UA-150644745-1
+ga_tracking_anonymize_ip: false
 
 # Exclude from processing.
 exclude:
